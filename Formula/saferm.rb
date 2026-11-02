@@ -7,18 +7,18 @@ class Saferm < Formula
   on_macos do
     on_arm do
       url "https://github.com/bartverbruggen/saferm/releases/download/v#{version}/saferm-aarch64-apple-darwin.tar.gz"
-      sha256 "FILL_ME_IN"
+      sha256 "b3c008afdeb8c9ef72112c44dc55cac97571166c870a203f1cfad4d027b113c5"
     end
     on_intel do
       url "https://github.com/bartverbruggen/saferm/releases/download/v#{version}/saferm-x86_64-apple-darwin.tar.gz"
-      sha256 "FILL_ME_IN"
+      sha256 "291a61cf894da0e052a101c3f8a1d9fbfe7134b48aa65eeb59fd89025054df10"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/bartverbruggen/saferm/releases/download/v#{version}/saferm-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "FILL_ME_IN"
+      sha256 "e3ec7b6a5bb156c6100e7bd3839026751f23a58a2c806f4b485b005737506aee"
     end
   end
 
